@@ -1,0 +1,4 @@
+{
+  "app": "npx tsx stack.ts",
+  "versionReporting": false
+}

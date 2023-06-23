@@ -1,0 +1,22 @@
+{
+  "name": "cdktest",
+  "version": "1.0.0",
+  "description": "CDK testing library",
+  "type": "module",
+  "scripts": {
+    "cdk": "cdk",
+    "start": "NODE_NO_WARNINGS=1 node --loader tsx index.ts",
+    "test": "vitest run"
+  },
+  "keywords": ["cdk", "testing"],
+  "author": "lukehedger",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node18": "2.0.1",
+    "aws-cdk": "2.85.0",
+    "aws-cdk-lib": "2.85.0",
+    "tsx": "3.12.7",
+    "typescript": "5.1.3",
+    "vitest": "0.32.2"
+  }
+}
